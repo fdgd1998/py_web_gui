@@ -1,0 +1,9 @@
+{
+  "assignment_type": "lab",
+  "assignment_name": "A Gas Simulation",
+  "assignment_num": 3,
+  "markdown": ["readme"],
+  "has_ui": true,
+  "script_imports": [ "jquery.js", "svg.js" ],
+  "style_imports": []
+}

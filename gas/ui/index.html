@@ -1,0 +1,50 @@
+<div>
+  <h1>#H<sub>2</sub>S04 Simulation</h1>
+</div>
+
+<div>
+  <h3>Selected initial test:</h3>
+  <p>
+    <span id="current_state"></span>
+    <!-- Left aligned menu on top of button  -->
+    <button id="initial_state" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">...</button>
+    <div class="mdl-tooltip" for="initial_state">
+      Select a new initial state.
+    </div>
+    <ul id="initial_states" class="mdl-menu mdl-js-menu mdl-js-ripple-effect" for="initial_state">
+    </ul>
+  </p>
+</div>
+
+<hr>
+
+<div id="drawing" class="lab-drawing"></div>
+
+<hr>
+
+<p>
+  Note: simulations larger than 16 on any dimension are shown as a vector field.
+</p>
+
+<div>
+  <button id="step_simulation" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="handle_step_button()">
+    Step
+  </button>
+  <div class="mdl-tooltip" for="step_simulation">
+    Advance simulation by 1 step.
+  </div>
+
+  <button id="run_simulation" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="handle_simulate_button()">
+    Run
+  </button>
+  <div class="mdl-tooltip" for="run_simulation">
+    Run simulation!
+  </div>
+
+  <button id="pause_simulation" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="handle_pause_button()">
+    Pause
+  </button>
+  <div class="mdl-tooltip" for="pause_simulation">
+    Pause simulation.
+  </div>
+</div>
